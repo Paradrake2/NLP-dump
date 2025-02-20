@@ -1,0 +1,32 @@
+Sample Input:
+Sample corpus:
+The cat sat on the mat. The dog lay on the floor. The cat and the dog were friends.
+
+Sample test corpus:
+The cat sat on the floor.
+
+Sample Output:
+Top Bigrams:
+Bigram: sat on -> Probability: 1.0000
+Bigram: on the -> Probability: 1.0000
+Bigram: mat the -> Probability: 1.0000
+Bigram: lay on -> Probability: 1.0000
+Bigram: floor the -> Probability: 1.0000
+
+Top Bigrams with Laplace
+
+Top Bigrams:
+Bigram: on the -> Probability: 0.2308
+Bigram: the cat -> Probability: 0.1765
+Bigram: the dog -> Probability: 0.1765
+Bigram: sat on -> Probability: 0.1667
+Bigram: mat the -> Probability: 0.1667
+
+Top Trigrams:
+Trigram: cat sat on -> Probability: 1.0000
+Trigram: sat on the -> Probability: 1.0000
+Trigram: the mat the -> Probability: 1.0000
+Trigram: mat the dog -> Probability: 1.0000
+Trigram: dog lay on -> Probability: 1.0000
+
+Perplexity of test corpus: 16.0000
